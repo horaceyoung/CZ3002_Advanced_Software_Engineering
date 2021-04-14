@@ -43,6 +43,7 @@
 <div style="text-align: center">
     <h1>Login</h1>
     <s:form action="login" method="post" theme="css_xhtml">
+        <s:fielderror fieldName="error-field" cssClass="form-error" />
         <div>
             Username:
             <s:textfield name="user.username" size="30"/>

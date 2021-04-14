@@ -13,7 +13,8 @@
         </action>
         <action name="login" class="Controller.LoginController" method="execute">
             <result name="SUCCESS">/success.jsp</result>
-            <result name="FAIL">/fail.jsp</result>
+            <result name="FAIL">/login.jsp</result>
+
         </action>
     </package>
 

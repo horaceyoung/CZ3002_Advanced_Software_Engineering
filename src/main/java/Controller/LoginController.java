@@ -19,6 +19,7 @@ public class LoginController extends ActionSupport {
             ResultSet result = statement.executeQuery();
 
             if (!result.isBeforeFirst() ) {
+                addFieldError("error-field", "Login Unsuccessful. Please try again.");
                 return "FAIL";
             }
             else {
